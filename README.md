@@ -14,7 +14,11 @@ http://www.michaeltillbeck.de
 
 ## Implementation of the CoordVNF algorithm
 
+Title: Coordinated Allocation of Service Function Chains
+
 Published in: Proceedings of the IEEE Global Communications Conference (GLOBECOM), 2015
+
+Authors: Michael Till Beck and Juan-Felipe Botero
 
 URL: http://ieeexplore.ieee.org/document/7417401/
 
@@ -27,6 +31,8 @@ Abstract:
 
 Title: Resilient Allocation of Service Function Chains
 
+Authors: Michael Till Beck and Juan-Felipe Botero and Kai Samelin
+
 Published in: Proceedings of the IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), 2016 (to appear)
 
 Abstract:
@@ -37,4 +43,18 @@ Abstract:
 # Requirements
 
 Alevin 2.2 (http://alevin.sf.net/)
+
+
+# If you like this code, please read and cite
+
+    @inproceedings{CoordVNF,
+        author={Michael Till Beck and Juan-Felipe Botero},
+        booktitle={2015 IEEE Global Communications Conference (GLOBECOM)},
+        title={Coordinated Allocation of Service Function Chains},
+        year={2015},
+        pages={1-6},
+        keywords={Internet;CoordVNF;Internet;VNF chains;bandwidth utilization;coordinated allocation;heuristic method;network functions virtualization;service function chains;standard IT virtualization;virtual network functions;Bandwidth;Hardware;Resource management;Runtime;Servers;Substrates;Virtualization},
+        doi={10.1109/GLOCOM.2015.7417401},
+        month={Dec}
+    }
 
