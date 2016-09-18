@@ -7,3 +7,8 @@ CoordVNF: see http://ieeexplore.ieee.org/document/7417401/
 "Network Functions Virtualization (NFV) is an emerging initiative to overcome increasing operational and capital costs faced by network operators due to the need to physically locate network functions in specific hardware appliances. In NFV, standard IT virtualization evolves to consolidate network functions onto high volume servers, switches and storage that can be located anywhere in the network. Services are built by chaining a set of Virtual Network Functions (VNFs) deployed on commodity hardware. The implementation of NFV leads to the challenge: How several network services (VNF chains) are optimally orchestrated and allocated on the substrate network infrastructure? In this paper, we address this problem and propose CoordVNF, a heuristic method to coordinate the composition of VNF chains and their embedding into the substrate network. CoordVNF aims to minimize bandwidth utilization while computing results within reasonable runtime."
 
 
+
+Requirements:
+
+Alevin 2.2 (http://alevin.sf.net/)
+
