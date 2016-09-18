@@ -1,14 +1,16 @@
-Author: Michael Till Beck
+Author: Michael Till Beck <michael.beck@ifi.lmu.de>
+http://www.michaeltillbeck.de
 
 
-# Simulation Toolkit for NFV Orchestration #
+# Simulation Toolkit for NFV Orchestration
+
 This is a framework that enables researchers to simulate deployment/orchestration algorithms in the context of NFV (network function virtualization).
 It is quite straight forward to implement new strategies for the deployment of VNFs (virtual network functions) and to compare them to existing approaches (CoordVNF and SVNF).
 
 This framework comes with an implementation of two deployment algorithms that were presented at two conferences, namely the CoordVNF and the SVNF algorithm:
 
 
-## Implementation of the CoordVNF algorithm ##
+## Implementation of the CoordVNF algorithm
 
 Published in: Proceedings of the IEEE Global Communications Conference (GLOBECOM), 2015
 URL: http://ieeexplore.ieee.org/document/7417401/
@@ -17,7 +19,7 @@ Abstract:
 
 
 
-## Implementation of the SVNF algorithm ##
+## Implementation of the SVNF algorithm
 
 Title: Resilient Allocation of Service Function Chains
 Published in: Proceedings of the IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), 2016 (to appear)
@@ -26,7 +28,7 @@ Abstract:
 > This paper discusses several measures on how backup resources can be integrated into the embedding of virtual network functions in order to protect network services from failures; furthermore, a resource allocation algorithm is proposed that considers resilience constraints. The algorithm exploits the benefits of sharing backup network resources in order to reduce the resource cost spent for providing resilient allocations."
 
 
-# Requirements #
+# Requirements
 
 Alevin 2.2 (http://alevin.sf.net/)
 
