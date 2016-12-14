@@ -14,7 +14,7 @@ http://www.michaeltillbeck.de
 
 ## Implementation of the CoordVNF algorithm
 
-Title: Coordinated Allocation of Service Function Chains
+Title: **Coordinated Allocation of Service Function Chains**
 
 Published in: Proceedings of the IEEE Global Communications Conference (GLOBECOM), 2015
 
@@ -26,10 +26,25 @@ Abstract:
 > "Network Functions Virtualization (NFV) is an emerging initiative to overcome increasing operational and capital costs faced by network operators due to the need to physically locate network functions in specific hardware appliances. In NFV, standard IT virtualization evolves to consolidate network functions onto high volume servers, switches and storage that can be located anywhere in the network. Services are built by chaining a set of Virtual Network Functions (VNFs) deployed on commodity hardware. The implementation of NFV leads to the challenge: How several network services (VNF chains) are optimally orchestrated and allocated on the substrate network infrastructure? In this paper, we address this problem and propose CoordVNF, a heuristic method to coordinate the composition of VNF chains and their embedding into the substrate network. CoordVNF aims to minimize bandwidth utilization while computing results within reasonable runtime."
 
 
+An in-depth analysis of the CoordVNF Algorithm has also been published in the Computer Communications Journal:
+
+Title: **Scalable and Coordinated Allocation of Service Function Chains**
+
+Published in: Elsevier Computer Communications Journal
+
+Authors: Michael Till Beck and Juan-Felipe Botero
+
+URL: http://www.sciencedirect.com/science/article/pii/S0140366416303577
+
+Abstract:
+> "Network Functions Virtualization is an emerging initiative where standard IT virtualization evolves to
+consolidate network functions onto high volume servers, switches and storage that can be located anywhere in the network. In NFV, network services are built by chaining a set of Virtual Network Functions (VNFs) that must be allocated on top of the physical network infrastructure (commodity hardware). This challenge is commonly known as the NFV resource allocation problem, that is divided in two problem stages: 1) service chain composition and 2) service chain embedding. Up to now, existing approaches do not scale with regard to problem size. In this paper, we address this problem and propose CoordVNF, a heuristic method to coordinate the composition of VNF chains and their embedding into the substrate network. Evaluation results show that the heuristic is able to quickly solve the allocation problem even in substrate network topologies with hundreds of nodes."
+
+
 
 ## Implementation of the SVNF algorithm
 
-Title: Resilient Allocation of Service Function Chains
+Title: **Resilient Allocation of Service Function Chains**
 
 Authors: Michael Till Beck and Juan-Felipe Botero and Kai Samelin
 
@@ -56,5 +71,20 @@ Alevin 2.2 (http://alevin.sf.net/)
         keywords={Internet;CoordVNF;Internet;VNF chains;bandwidth utilization;coordinated allocation;heuristic method;network functions virtualization;service function chains;standard IT virtualization;virtual network functions;Bandwidth;Hardware;Resource management;Runtime;Servers;Substrates;Virtualization},
         doi={10.1109/GLOCOM.2015.7417401},
         month={Dec}
+    }
+
+    @article{CoordVNFJournal,
+        title = {Scalable and Coordinated Allocation of Service Function Chains},
+        journal = {Computer Communications Journal},
+        publisher = {Elsevier},
+        year = {2016},
+        author = {Michael Till Beck and Juan-Felipe Botero},
+    }
+
+    @inproceedings{SVNF,
+        author={Michael Till Beck and Juan-Felipe Botero and Kai Samelin},
+        booktitle={IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN)},
+        title={Resilient Allocation of Service Function Chains},
+        year={2016},
     }
 
